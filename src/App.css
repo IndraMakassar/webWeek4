@@ -16,23 +16,46 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
+  min-width: 100vw;
+  color: white;
   display: flex;
   flex-direction: column;
+}
+
+.row-atas {
+  display: flex;
+  flex-direction: row;
+  height: 40%;
+  width: 100%;
+}
+
+.row-bawah {
+  display: flex;
+  flex-direction: row;
+  height: 60%;
+  width: 100%;
+}
+
+.foto {
+  width: 40vw;
+  height: 40vh;
+}
+
+.poin-kiri {
+  width: 40vw;
+}
+
+.poin-kanan {
+  width: 60vw;
+}
+
+.nama {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
+  font-size: xxx-large;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foto-lingkaran {
+  border-radius: 100%;
+  overflow: hidden;
 }
